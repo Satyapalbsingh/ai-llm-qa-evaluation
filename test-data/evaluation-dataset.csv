@@ -1,5 +1,5 @@
 Test Case ID,Prompt,Expected Response,Source Document,Actual Response,Accuracy,Relevance,Groundedness,Hallucination,Result,Notes
-TC-001,"How many paid annual leave days are employees entitled to per calendar year?","Employees are entitled to 20 paid annual leave days per calendar year.","leave-policy.md","","","","","","Not Executed",""
+TC-001,How many paid annual leave days are employees entitled to per calendar year?,20 paid annual leave days per calendar year.,leave-policy.md,20,Pass,Pass,Pass,Pass,PASS,Response exactly matches the expected value from the knowledge base.
 TC-002,"What is the maximum number of annual leave days that can be carried forward to the next calendar year?","Employees can carry forward a maximum of 5 annual leave days.","leave-policy.md","","","","","","Not Executed",""
 TC-003,"How much life insurance coverage does an eligible full-time employee receive?","Eligible full-time employees receive ₹10,00,000 of company-provided life insurance coverage.","benefits-policy.md","","","","","","Not Executed",""
 TC-006,"How many days of maternity leave does NovaTech Solutions provide?","The available knowledge base does not specify a maternity leave duration.","leave-policy.md","","","","","","Not Executed",""
